@@ -32,12 +32,12 @@ int main(void)
 					printf("\n");
 					break;
 				}
-				putchar(ch += 1);
-				putchar('\n');
+				putchar(ch += 1); //присвоение значения следующего по кодировке симв. и вывод
+				putchar('\n');		//перев стр
 
 				//putchar(ch + 1);
-				putc(ch + 1,stdout);
-				putchar('\n');
+				putc(ch + 1,stdout);	// вывод следующего по кодировке симв.
+				putchar('\n');			//перев стр
 				// надо попробовать подробнее ch = _getche(); ???
 			}
 	} while (ch != 1); /* выход no control-A */
