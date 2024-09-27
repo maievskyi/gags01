@@ -9,7 +9,7 @@ putc(ch ,stdout);
 
 надо пробовать одиночный вызов only one getchar ??????
 
-
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 */
 
 #include <stdio.h>
